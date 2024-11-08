@@ -14,7 +14,7 @@ Thanks for checking out this backend project.
 
 The project is to build **Build Your Own Weather API** and get the front end working (the front end has already integrated the API).
 
-[Click here to view more details about this project.](https://app.masteringbackend.com/projects/build-netflix:-build-your-own-movie-streaming-api)
+[Click here to view more details about this project.](https://app.masteringbackend.com/projects/build-your-own-weather-api)
 
 You can use any tools you like to help you complete the project. So if you've got something you'd like to practice, feel free to give it a go.
 
