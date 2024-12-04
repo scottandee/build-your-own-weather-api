@@ -20,11 +20,11 @@ You can use any tools you like to help you complete the project. So if you've go
 
 ## Objectives
 
-- Provide users with the ability to browse and search a catalog of movies.
-- Enable users to stream movies on demand in different formats and resolutions.
-- Offer movie details including metadata such as cast, crew, trailers, and reviews.
-- Allow users to manage watchlists, rate movies, and track playback progress.
-- Ensure the API is scalable, secure, and optimized for high-performance video streaming.
+- Allow users to sign up, log in, and manage their accounts.
+- Enable users to set and manage their locations.
+- Provide current weather conditions, daily and hourly forecasts.
+- Send real-time weather alerts to users.
+- Support user preferences for units of measurement and notification settings.
 
 Want some support on the project? [Join our community](https://masteringbackend.com/community) and ask questions in the **#project-builders** channel.
 
