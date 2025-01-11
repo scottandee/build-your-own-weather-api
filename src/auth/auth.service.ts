@@ -29,21 +29,16 @@ export class AuthService {
   }
 
   async register(registerDto: RegisterDto) {
-    try {
-      const salt = await bcrypt.genSalt();
-      registerDto.password = await bcrypt.hash(registerDto.password, salt);
-      const user = await this.usersService.create(registerDto);
-      return {
-        status: 201,
-        message: 'User registered successfully',
-        data: {
-          token: this.generateToken(user.id),
-          user: user,
-        }
-      };
-    }
-    catch (e) {
-      throw e;
+    const salt = await bcrypt.genSalt();
+    registerDto.password = await bcrypt.hash(registerDto.password, salt);
+    const user = await this.usersService.create(registerDto);
+    return {
+      status: 201,
+      message: 'User registered successfully',
+      data: {
+        token: this.generateToken(user.id),
+        user: user,
+      }
     }
   }
 
